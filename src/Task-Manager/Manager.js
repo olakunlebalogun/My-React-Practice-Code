@@ -14,7 +14,7 @@ const Manager = () => {
 				id: new Date().getTime(),
 				task,
 			};
-			let newTasks = [...data, newTask];
+			let newTasks = [...tasks, newTask];
 			setTasks(newTasks);
 			console.log("Task added");
 			setTask("");
