@@ -1,0 +1,18 @@
+datasets: [
+						{
+							label: "First dataset",
+							data: [0, 20, 40, 50],
+							backgroundColor: ["yellow", "green", "orange", "pink"],
+						},
+					],
+					labels: ["January", "February", "March", "April"],
+				}}
+				height={50}
+				width={100}
+				option={{
+					scales: {
+						y: {
+							suggestedMin: 50,
+							suggestedMax: 100,
+						},
+					},

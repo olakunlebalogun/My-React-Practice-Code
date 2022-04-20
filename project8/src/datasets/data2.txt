@@ -1,0 +1,27 @@
+labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+					datasets: [
+						{
+							label: "Net sales",
+							data: data,
+							parsing: {
+								yAxisKey: "net",
+							},
+							backgroundColor: "blue",
+						},
+						{
+							label: "Cost of goods sold",
+							data: data,
+							parsing: {
+								yAxisKey: "cogs",
+							},
+							backgroundColor: "yellow",
+						},
+						{
+							label: "Gross margin",
+							data: data,
+							parsing: {
+								yAxisKey: "gm",
+							},
+							backgroundColor: "red",
+						},
+					],
